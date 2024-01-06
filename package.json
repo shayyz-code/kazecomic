@@ -11,8 +11,15 @@
   "dependencies": {
     "eslint": "8.44.0",
     "eslint-config-next": "13.4.9",
+    "firebase": "^10.7.1",
     "next": "13.4.9",
     "react": "18.2.0",
+<<<<<<< Updated upstream
     "react-dom": "18.2.0"
+=======
+    "react-dom": "18.2.0",
+    "styled-components": "^5.3.11",
+    "uuid": "^9.0.1"
+>>>>>>> Stashed changes
   }
 }

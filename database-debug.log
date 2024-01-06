@@ -1,0 +1,20 @@
+14:58:41.647 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+14:58:41.757 [main] INFO com.firebase.server.forge.App$ - Listening at 127.0.0.1:9000
+14:58:47.652 [NamespaceSystem-akka.actor.default-dispatcher-6] INFO com.firebase.core.namespace.NamespaceActor - kazecomics-818a4-default-rtdb successfully activated FBKV (SurveyIdle(0)) wait: 91ms, init: 0ms
+14:58:47.717 [NamespaceSystem-blocking-namespace-operation-dispatcher-7] INFO com.firebase.core.namespace.StateManager - Namespace kazecomics-818a4-default-rtdb status Active to Active
+15:00:14.477 [FirebaseWorkerPool-1-4] WARN com.firebase.core.persistence.backend.dummy.EmulatorMetadataPersistence - Multiple projectIds are not recommended in single project mode. Requested 
+namespace kazecomics-818a4, but the emulator is configured for kazecomics-818a4-default-rtdb. To 
+opt-out of single project mode add/set the singleProjectMode: false property in 
+the firebase.json emulators config. 
+15:00:14.494 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO com.firebase.core.namespace.NamespaceActor - kazecomics-818a4 successfully activated FBKV (SurveyIdle(0)) wait: 12ms, init: 0ms
+15:21:04.611 [FirebaseWorkerPool-1-2] WARN com.firebase.core.persistence.backend.dummy.EmulatorMetadataPersistence - Multiple projectIds are not recommended in single project mode. Requested 
+namespace fake-server, but the emulator is configured for kazecomics-818a4,kazecomics-818a4-default-rtdb. To 
+opt-out of single project mode add/set the singleProjectMode: false property in 
+the firebase.json emulators config. 
+15:21:04.629 [NamespaceSystem-akka.actor.default-dispatcher-34] INFO com.firebase.core.namespace.NamespaceActor - fake-server successfully activated FBKV (SurveyIdle(0)) wait: 6ms, init: 0ms
+18:07:29.082 [Thread-0] INFO com.firebase.server.forge.App$ - Attempting graceful shutdown.
+18:07:29.128 [NamespaceSystem-akka.actor.default-dispatcher-4589] INFO com.firebase.core.namespace.Terminator$Terminator - 3 actors left to terminate: fake-server, kazecomics-818a4-default-rtdb, kazecomics-818a4
+18:07:29.138 [NamespaceSystem-akka.actor.default-dispatcher-4597] INFO com.firebase.core.namespace.NamespaceActor - stopped namespace actor for fake-server
+18:07:29.138 [NamespaceSystem-akka.actor.default-dispatcher-4595] INFO com.firebase.core.namespace.NamespaceActor - stopped namespace actor for kazecomics-818a4
+18:07:29.140 [NamespaceSystem-akka.actor.default-dispatcher-4596] INFO com.firebase.core.namespace.NamespaceActor - stopped namespace actor for kazecomics-818a4-default-rtdb
+18:07:29.149 [Thread-0] INFO com.firebase.server.forge.App$ - Graceful shutdown complete.

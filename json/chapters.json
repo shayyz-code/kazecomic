@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Childhood",
+    "ch_no": 1,
+    "scan_id": 1
+  },
+  {
+    "id": 2,
+    "name": "Orochimaru",
+    "ch_no": 2,
+    "scan_id": 1
+  },
+  {
+    "id": 3,
+    "name": "Gara",
+    "ch_no": 3,
+    "scan_id": 1
+  },
+  {
+    "id": 4,
+    "name": "Obito",
+    "ch_no": 4,
+    "scan_id": 1
+  },
+  {
+    "id": 5,
+    "name": "Ryomen Sukuna",
+    "ch_no": 1,
+    "scan_id": 2
+  },
+  {
+    "id": 6,
+    "name": "Secret Execution",
+    "ch_no": 2,
+    "scan_id": 2
+  },
+  {
+    "id": 7,
+    "name": "For Myself",
+    "ch_no": 3,
+    "scan_id": 2
+  },
+  {
+    "id": 8,
+    "name": "Girl of Steel",
+    "ch_no": 4,
+    "scan_id": 2
+  }
+]
